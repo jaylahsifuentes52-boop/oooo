@@ -1,3 +1,29 @@
-<a href="./JuniorPatcher.apk" download="JuniorPatcher.apk">
-  <button>Download Junior Patcher</button>
+```html
+<a href="JuniorPatcher.apk" download class="download-btn">
+  ⬇ Download APK
 </a>
+
+<style>
+.download-btn {
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient(135deg, #6c5ce7, #8e44ad);
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: 0.2s ease;
+}
+
+.download-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
+
+.download-btn:active {
+  transform: scale(0.96);
+}
+</style>
+```
